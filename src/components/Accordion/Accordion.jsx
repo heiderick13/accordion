@@ -3,7 +3,7 @@ import AccordionItem from "../AccordionItem/AccordionItem";
 
 function Accordion() {
   return (
-    <div>
+    <div className="flex flex-col gap-4">
       {data.map((item, index) => (
         <AccordionItem item={item} key={index} />
       ))}
