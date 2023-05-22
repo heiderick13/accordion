@@ -5,7 +5,7 @@ import desktopWoman from "./assets/images/illustration-woman-online-desktop.svg"
 
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen flex items-center justify-center bg-gradient-to-b from-soft-violet to-soft-blue text-verydark-desaturated-blue">
       <div className="main-container relative bg-white rounded-3xl flex justify-between items-center gap-6 pe-10 py-14">
         <div className="img-container h-full w-1/2 overflow-hidden ">
           <img
