@@ -10,9 +10,12 @@ function AccordionItem({ item }) {
   };
 
   return (
-    <div className="select-none cursor-pointer" onClick={open}>
-      <h2 className="flex items-center justify-between gap-3 text-2xl">
-        {item.question}{" "}
+    <div
+      className="select-none cursor-pointer border-b border-b-light-grayish-blue"
+      onClick={open}
+    >
+      <h2 className="text-center flex items-center justify-between gap-3 text-xl">
+        {item.question}
         <BsChevronDown
           className={!isOpen ? "text-soft-red" : "text-soft-red rotate-180"}
         />
